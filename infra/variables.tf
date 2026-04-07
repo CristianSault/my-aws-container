@@ -17,3 +17,11 @@ variable "user_pool_id" {
 variable "client_id" {
   default = "4q2ob774dgjg96ji8j1g724d4k"
 }
+
+variable "my-bucket" {
+    default = "xpix-photos-26w-25013012"
+}
+
+variable "my-dynamodb-table" {
+    default = "xpix-photos"
+}
